@@ -1,4 +1,4 @@
-mport os, sys, warnings
+import os, sys, warnings
 import numpy as np
 import pandas as pd
 import streamlit as st
