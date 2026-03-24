@@ -59,7 +59,7 @@ MODEL_INFO = {
         "endpoint": aws_endpoint,
         "explainer": 'explainer_pair.shap',
         "pipeline": 'finalized_model.tar.gz',
-        "keys": ["MPWR", "AAPL"],
+        "keys": ["AXP", "ORCL"],
         "inputs": [{"name": k, "type": "number", "min": 0.0, "default": 0.0, "step": 10.0} for k in ["MPWR", "AAPL"]]
 }
 
